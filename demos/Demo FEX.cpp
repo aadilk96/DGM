@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 	Mat img = imread(argv[1], 1);
 	fex::CCommonFeatureExtractor fExtractor(img);
 
+	// Extracts a coordinate feature. This function calculates the coordinate feature of image pixels, based only on theirs coordinates.
 	Mat coord = fex::CCoordinate::get(img);
 
 	// Extracting 3 features
