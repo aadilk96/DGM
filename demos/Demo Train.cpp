@@ -20,6 +20,7 @@ void print_help(char *argv0)
 	printf("6: MicroSoft Random Forest\n");
 	printf("7: OpenCV Artificial Neural Network\n");
 	printf("8: OpenCV Support Vector Machines\n");
+	// printf("9: OpenCV Deep Neural Network\n");
 
 	
 	printf("\nEdge training models:\n");

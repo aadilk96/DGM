@@ -12,6 +12,8 @@
 #include "TrainNodeCvANN.h"
 #include "TrainNodeCvSVM.h"
 
+// #include "TrainNodeCvDNN.h"
+
 #include "macroses.h"
 
 namespace DirectGraphicalModels
@@ -34,6 +36,7 @@ namespace DirectGraphicalModels
 #endif
 		case NodeRandomModel::CvANN:	return std::make_shared<CTrainNodeCvANN>(nStates, nFeatures);		
 		case NodeRandomModel::CvSVM:	return std::make_shared<CTrainNodeCvSVM>(nStates, nFeatures);		
+		// case NodeRandomModel::CvDNN:	return std::make_shared<CTrainNodeCvDNN>(nStates, nFeatures);		
 		default:
 			DGM_ASSERT_MSG(false, "Unknown type of the node random model");
 		}

@@ -17,6 +17,7 @@ namespace DirectGraphicalModels
 		MsRF, 					///< MicroSoft Random Forest
 		CvANN, 					///< OpenCV Artificial Neural Network
 		CvSVM, 					///< OpenCV Support Vector Machines
+		// CvDNN, 					///< OpenCV Deep Neural Network
 
 		GM, 					///< Gaussian Model
 		CvGM, 					///< OpenCV Gaussian Model
